@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Lumina from "../../public/DemoLumina.png";
+import Lumina from "../public/DemoLumina.png";
 
 export default function Hero() {
   return (
