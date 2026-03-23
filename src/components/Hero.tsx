@@ -3,7 +3,7 @@ import Lumina from "../public/DemoLumina.png";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen gap-40">
+    <section className="flex items-center justify-center min-h-screen gap-40">
       {/* Lado esquerdo: texto + botão */}
       <div className="max-w-lg space-y-6">
         <motion.h1

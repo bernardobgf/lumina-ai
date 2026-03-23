@@ -9,7 +9,7 @@ import Testimonials from "./components/Testimonials";
 export default function App() {
   return (
     <motion.div
-      className="bg-linear-to-r from-slate-300 to-purple-900"
+      className="bg-linear-to-r from-primary to-secundary"
       animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
       transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
       style={{ backgroundSize: "200% 200%" }}
